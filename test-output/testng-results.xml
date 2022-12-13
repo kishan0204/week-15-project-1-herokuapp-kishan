@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter email tomsmith1to email field[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //input[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter passwordSuperSecretPassword!to password field[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //input[@id='password']]]]>
+    </line>
+    <line>
+      <![CDATA[click on loging button[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //i[normalize-space()='Login']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Test" duration-ms="7935" started-at="2022-12-11T22:00:33 GMT" finished-at="2022-12-11T22:00:41 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.sw.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.sw.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Sanity Test" duration-ms="7935" started-at="2022-12-11T22:00:33 GMT" finished-at="2022-12-11T22:00:41 GMT">
+      <class name="com.herokuapp.sw.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="setUp" is-config="true" duration-ms="6231" started-at="2022-12-11T22:00:33 GMT" finished-at="2022-12-11T22:00:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="inIt" is-config="true" duration-ms="29" started-at="2022-12-11T22:00:39 GMT" finished-at="2022-12-11T22:00:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="verifyTheUsernameErrorMessage" duration-ms="540" started-at="2022-12-11T22:00:39 GMT" finished-at="2022-12-11T22:00:40 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email tomsmith1to email field[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //input[@id='username']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter passwordSuperSecretPassword!to password field[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //input[@id='password']]]]>
+            </line>
+            <line>
+              <![CDATA[click on loging button[[ChromeDriver: chrome on WINDOWS (c83804f31c07293a327861b9ddd3ac1e)] -> xpath: //i[normalize-space()='Login']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.sw.testsuite.LoginPageTest@149494d8]" name="tearDown" is-config="true" duration-ms="804" started-at="2022-12-11T22:00:40 GMT" finished-at="2022-12-11T22:00:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.sw.testsuite.LoginPageTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity Test -->
+</testng-results>
